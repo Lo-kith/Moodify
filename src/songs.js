@@ -2,8 +2,9 @@
 //     happy:[
 //         {titile:"Happy Vibes", artist:"Dj Joy",}
 //     ]
+import { motion } from 'framer-motion';
 
-import { title } from "framer-motion/client";
+
 
 // }
 export const moodSongs = {
