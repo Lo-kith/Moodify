@@ -1,0 +1,73 @@
+.gradient-text {
+  text-align: center;
+  color: white;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #b3b3b3;
+  margin-top: 8px;
+}
+
+.vinyl-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.music-icon {
+  width: 300px;
+  height: 300px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* ❤️ Responsive Media Query */
+@media (max-width: 768px) {
+  .music-icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .gradient-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .music-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .gradient-text {
+    font-size: 1.2rem;
+  }
+}
