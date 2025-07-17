@@ -2,7 +2,6 @@
 //     happy:[
 //         {titile:"Happy Vibes", artist:"Dj Joy",}
 //     ]
-import { motion } from 'framer-motion';
 
 
 
@@ -34,7 +33,7 @@ export const moodSongs = {
   romantic:[
     { title:"Naan Pizhai",artist:"Anirudh",url:"Naan-Pizhai-MassTamilan.so.mp3"},
     {title:"Anthadhi",artist:"Govid Vasantha",url:"Anthaathi-MassTamilan.com.mp3"},
-  ],
+  ]
   
 };
 
